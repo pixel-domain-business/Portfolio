@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f8f9fa;
+    background-image: url('images/c3fa35358eb0cfdc9e055085b2d3933b.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+header h1 {
+    font-size: 48px;
+    margin: 0;
+    color: #ffffff;
+}
+
+header p {
+    font-size: 18px;
+    color: #000000;
+}
+
+.about, .portfolio, .projects, footer {
+    padding: 20px;
+    margin: 20px;
+    border-top: 2px solid #ffffff;
+    color: white;
+}
+
+.about-info, .portfolio-list, .projects-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.about-info div, .portfolio-list div, .projects-list div {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width: 300px;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 10px;
+    max-width: 300px;
+  }
+  
+  .footer-section p {
+    margin: 5px 0;
+  }  
+
+footer h3, footer p {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+}
