@@ -4,16 +4,17 @@ body {
     padding: 0;
     line-height: 1.6;
     color: #333;
+    background-image: url('images/r21do1.gif');
 }
 
 header {
     text-align: center;
     padding: 50px 20px;
-    background-color: #f8f9fa;
+    background-color: #ffffff;
     background-image: url('images/c3fa35358eb0cfdc9e055085b2d3933b.jpg');
     background-size: cover;
     background-position: center;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 header h1 {

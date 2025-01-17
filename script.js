@@ -1,4 +1,3 @@
-// Simple animation for header text
 document.addEventListener('DOMContentLoaded', () => {
     const header = document.querySelector('.animated-text');
     let i = 0;
