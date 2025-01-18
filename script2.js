@@ -6,7 +6,7 @@
         event.preventDefault();
 
         const serviceID = "service_qtve8iq";
-        const templateID = "template_77aqy2b";
+        const templateID = "__ejs-test-mail-service__";
 
         const form = this;
 
