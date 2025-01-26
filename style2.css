@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-image: url('images/r21do1.gif');
+}
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+    background-image: url('images/c3fa35358eb0cfdc9e055085b2d3933b.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+}
+
+header h1 {
+    font-size: 48px;
+    margin: 0;
+    color: #000000;
+}
+
+header p {
+    font-size: 18px;
+    color: #000000;
+}
+
+.Programs {
+    font-family: Arial;
+    text-align: center;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    border-top: 2px solid #ffffff;
+    color: white;
+}
+.contents {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.contents div {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width: 300px;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    border-top: 2px solid white;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 10px;
+    max-width: 300px;
+  }
+  
+  .footer-section p {
+    margin: 5px 0;
+  }  
+
+footer h3, footer p {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Tools {
+    font-family: Arial;
+    text-align: center;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    border-top: 2px solid #ffffff;
+    color: white;
+}

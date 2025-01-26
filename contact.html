@@ -25,6 +25,7 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
             background-image: url('images/wallpaper.gif');
+            border: solid;
         }
         h1 {
             text-align: center;
@@ -58,9 +59,45 @@
             border-radius: 4px;
             font-size: 1em;
             cursor: pointer;
+            transition: background-color 1s;
         }
         button:hover {
-            background-color: #0056b3;
+            background-color: #ffffff;
+            opacity: 0.7;
+            color: #000000;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            border-top: 2px solid white;
+          }
+          
+          .footer-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+          }
+          
+          .footer-section {
+            flex: 1;
+            margin: 10px;
+            max-width: 300px;
+          }
+          
+          .footer-section p {
+            margin: 5px 0;
+          }  
+        
+        footer h3, footer p {
+            margin: 10px 0;
+        }
+        
+        a {
+            text-decoration: none;
         }
     </style>
 </head>
@@ -83,6 +120,27 @@
             <button type="submit">Submit</button>
         </form>
     </div>
+    <footer>
+        <h3>Contact and Information</h3>
+        <div class="footer-container">
+          <div class="footer-section">
+            <p>Discord: 9urple_ink</p>
+            <p>Discord Server: <a href="https://discord.gg/4myq6q9Abc">Pixel Domain™</a></p>
+            <p>Payment Options: Crypto, Robux (25% Pre-payment required)</p>
+          </div>
+          <div class="footer-section">
+            <p>Corporate Email: <a href="malto:pixeldomainbusiness@gmail.com">pixeldomainbusiness@gmail.com</a></p>
+            <p>Owner: Zoro</p>
+            <p>Scripter: Zoro</p>
+          </div>
+          <div class="footer-section">
+            <p>Copyright: Copyrighted to Pixel Domain™ 2025</p>
+            <p><a href="contents.html">Contents List</a></p>
+            <p><a href="index.html">Homepage</a></p>
+          </div>
+          <p>Disclaimer: This website is a portfolio, providing services related to programming and scripting. The website is only for corporate purposes. Please don't violate web safety laws.</p>
+        </div>
+      </footer>
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <script src="script2.js"></script>
     <audio src="music/void.mp3" autoplay loop volume="10"></audio>
